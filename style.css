@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+    height: 80px;
+}
+
+.logo-img{
+    width: 150px;
+}
+
+.menus{
+    display: flex;
+    cursor: pointer;
+}
+
+.list-items{
+    padding: 0 13px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/background.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    color: white;
+}
+
+.banner-img{
+    width: 300px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.text{
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.btn{
+    padding: 13px;
+    background-color: red;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.about-section{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.title{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.service-section{
+    background-image: url(./images/background.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    color: white;
+    height: 500px;
+    padding: 20px 0;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-box{
+    margin-top: 20px;
+    width: 250px;
+    height: 290px;
+    box-shadow: 10px 20px 40px #312c2c;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.service-icon{
+    width: 100px;
+}
+
+.about-title{
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+footer{
+    background-color: black;
+    height: 400px;
+    color: white;
+}
+
+.footer-section{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+footer p{
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.footer-1{
+    width: 250px;
+}
+
+.footer-title{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+hr{
+    width: 80%;
+}
+
+.copyright{
+    margin-top: 30px;
+    text-align: center;
+}
